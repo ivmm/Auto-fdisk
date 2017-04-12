@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Author: Vtrois <seatonjiang@spacepack.org>
-# Project URL: https://www.spacepack.org
+# Author: Vtrois <seaton@vtrois.com>
+# Project URL: https://www.vtrois.com
 # Description: Auto fdisk for SpacePack Tools
-# Github URL: https://github.com/SpacePack/Auto-fdisk
+# Github URL: https://github.com/Vtrois/Auto-fdisk
 
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 clear
@@ -11,7 +11,7 @@ printf "
 ===========================================================================
                                 Auto fdisk
       SpacePack tools for CentOS, CoreOS, Debian, openSUSE and Ubuntu
- For more information please visit https://github.com/SpacePack/Auto-fdisk
+   For more information please visit https://github.com/Vtrois/Auto-fdisk
 ===========================================================================
 "
 echo -e "\n\033[36mStep 1: Initializing script and check root privilege\033[0m"
