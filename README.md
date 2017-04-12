@@ -3,12 +3,12 @@ Auto fdisk for SpacePack Tools
 
 ## Demo
 
-![Auto fdisk](http://p1.bqimg.com/567571/d52da1143d8b4da8.png) 
+![Auto fdisk](http://i2.muimg.com/567571/d08804b00c13bfa5.png) 
 
 ## How to use
 
 ```bash
-$ wget https://mirrors.spacepack.org/tool/auto_fdisk.sh
+$ wget https://raw.githubusercontent.com/Vtrois/Auto-fdisk/master/auto_fdisk.sh
 $ chmod +x auto_fdisk.sh
 $ ./auto_fdisk.sh
 ```
