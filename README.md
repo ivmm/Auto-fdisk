@@ -8,8 +8,8 @@ Auto fdisk for SpacePack Tools
 ## How to use
 
 ```bash
-$ wget https://raw.githubusercontent.com/Vtrois/Auto-fdisk/master/auto_fdisk.sh
-$ chmod +x auto_fdisk.sh
+$ wget https://raw.githubusercontent.com/Vtrois/Auto-fdisk/master/auto_fdisk.sh
+$ chmod +x auto_fdisk.sh
 $ ./auto_fdisk.sh
 ```
 
