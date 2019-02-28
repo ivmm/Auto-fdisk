@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Author: Vtrois <seaton@vtrois.com>
-# Project URL: https://www.vtrois.com
-# Description: Auto fdisk for SpacePack Tools
-# Github URL: https://github.com/Vtrois/Auto-fdisk
-# WEB IDE DEMO
+# URL: https://www.llstack.com
 
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 clear
@@ -12,7 +8,6 @@ printf "
 ===========================================================================
                                 Auto fdisk
       SpacePack tools for CentOS, CoreOS, Debian, openSUSE and Ubuntu
-   For more information please visit https://github.com/Vtrois/Auto-fdisk
 ===========================================================================
 "
 echo -e "\n\033[36mStep 1: Initializing script and check root privilege\033[0m"
@@ -92,7 +87,7 @@ mkfs.ext4 ${1}1
 fdisk_mkfs $Disk > /dev/null 2>&1
 echo -e "\033[32mSuccess, the disk has been partitioned and formatted!\033[0m"
 echo -e "\n\033[36mStep 5: Make a directory and mount it\033[0m"
-echo -e -n "\033[33mPlease enter a location to mount (e.g., /data):\033[0m"
+echo -e -n "\033[33mPlease enter a location to mount (e.g., /home):\033[0m"
 read Mount
 mkdir $Mount > /dev/null 2>&1
 mount ${Disk}1 $Mount
