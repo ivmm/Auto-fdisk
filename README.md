@@ -1,17 +1,21 @@
 # Auto fdisk
 Auto fdisk for SpacePack Tools
 
+Inherited from https://github.com/Vtrois
+
 ## Demo
 
-![Auto fdisk](http://i2.muimg.com/567571/d08804b00c13bfa5.png) 
+![Auto fdisk](https://raw.githubusercontent.com/ivmm/Auto-fdisk/master/auto-fdisk.png) 
 
 ## How to use
 
 ```bash
-$ wget https://raw.githubusercontent.com/Vtrois/Auto-fdisk/master/auto_fdisk.sh
-$ chmod +x auto_fdisk.sh
-$ ./auto_fdisk.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ivmm/Auto-fdisk/master/auto_fdisk.sh)" 2>&1 | tee Auto-fdisk.log
 ```
+
+Video:
+
+http://www.365yg.com/i6435830537536930306/#mid=1558373688538114
 
 ## License
 
